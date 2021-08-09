@@ -12,8 +12,8 @@ let data: DataManager = new DataManager({
 let treeGridObj: TreeGrid = new TreeGrid({
   dataSource: data,
   hasChildMapping: 'isParent',
-  idMapping: 'TaskID',
   parentIdMapping: 'ParentItem',
+  idMapping: 'TaskID',
   pageSettings: { pageSize: 25 },
   height: 535,
   allowPaging: true,
