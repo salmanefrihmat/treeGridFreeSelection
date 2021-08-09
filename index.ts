@@ -9,7 +9,6 @@ let data: DataManager = new DataManager({
   crossDomain: true
 });
 
-
 let treeGridObj: TreeGrid = new TreeGrid({
   dataSource: data,
   hasChildMapping: 'isParent',
@@ -19,7 +18,6 @@ let treeGridObj: TreeGrid = new TreeGrid({
   height: 535,
   allowPaging: true,
   treeColumnIndex: 1,
-
 
   childMapping: 'subtasks',
   selectionSettings: {
